@@ -1,7 +1,0 @@
-<map id="BatchCollectTest.startStream" name="BatchCollectTest.startStream">
-<area shape="rect" id="Node000001" title=" " alt="" coords="257,48,467,76"/>
-<area shape="rect" id="Node000002" href="$classBatchCollectTest.html#a8c0559279adae48dcf9e519a7f1a1e25" title=" " alt="" coords="5,5,209,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,49,209,44,209,39,241,43"/>
-<area shape="rect" id="Node000003" href="$classBatchCollectTest.html#a71433847e60e2f6ba38d2564f79da44a" title=" " alt="" coords="14,75,200,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="242,81,201,87,200,82,241,76"/>
-</map>

@@ -1,9 +1,0 @@
-<map id="src/main/java/com/teragrep/functions/dpf_02/ConvertIPStringToInt.java" name="src/main/java/com/teragrep/functions/dpf_02/ConvertIPStringToInt.java">
-<area shape="rect" id="Node000001" title=" " alt="" coords="240,5,479,67"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,115,258,143"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="285,70,179,111,178,106,283,65"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="282,115,437,143"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="362,67,362,99,357,99,357,67"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="462,115,695,143"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="433,65,534,106,532,111,431,70"/>
-</map>

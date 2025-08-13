@@ -1,9 +1,0 @@
-<map id="com.teragrep.functions.dpf_02.SortOperation.sortByClauseToColumn" name="com.teragrep.functions.dpf_02.SortOperation.sortByClauseToColumn">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,248,128"/>
-<area shape="rect" id="Node000002" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a3fc10858d9ecf41e0ae8ef28a2bf4f3d" title=" " alt="" coords="297,5,527,50"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,65,302,52,303,57,249,70"/>
-<area shape="rect" id="Node000003" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a2cf92d06f1f06e2602a27a2072d36d60" title=" " alt="" coords="296,75,528,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="248,94,280,94,280,100,248,100"/>
-<area shape="rect" id="Node000004" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a708742d11eb8f958488fb23307504a08" title=" " alt="" coords="299,144,525,189"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="249,124,303,137,302,142,247,129"/>
-</map>
