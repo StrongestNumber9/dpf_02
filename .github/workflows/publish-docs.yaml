@@ -17,7 +17,7 @@ jobs:
         id: extract_branch
       # Make dirs
       - name: Make dirs
-        run: mkdir -p docs/{javadoc,doxygen}/${{steps.extract_branch.outputs.branch}}
+        run: mkdir -p docs/${{steps.extract_branch.outputs.branch}}/{javadoc,doxygen}
       # Run javadoc
       - name: Generate javadoc
         run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/${{steps.extract_branch.outputs.branch}}/javadoc/"
