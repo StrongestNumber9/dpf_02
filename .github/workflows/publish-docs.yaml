@@ -6,30 +6,27 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Used for redirecting docs
       - name: Extract branch name
         shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
         id: extract_branch
-      # Create javadoc content
-      - name: Publish JavaDoc
-        uses: MathieuSoysal/Javadoc-publisher.yml@v3.0.2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          javadoc-branch: javadoc
-          java-version: 11
-          target-folder: "javadoc/${{ steps.extract_branch.outputs.branch }}"
-          project: maven
-          without-deploy: true
+      # Run javadoc
+      - name: Generate javadoc
+        run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/javadoc/${{steps.extract_branch.outputs.branch}}"
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
-      # Install doxygen
-      - name: Install Doxygen
-        run: sudo apt-get update && sudo apt-get install doxygen
+      # Install dependencies for doxygen
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install doxygen graphviz
       # Generate doxygen docs
       - name: Generate Doxygen docs
         run: mkdir -p "${OUTPUT_DIRECTORY}" && doxygen Doxyfile
         env:
-          OUTPUT_DIRECTORY: "doxygen/${{ steps.extract_branch.outputs.branch }}"
-      # Debug
-      - name: Debug
-        run: ls -laF && git status
+          OUTPUT_DIRECTORY: "docs/doxygen/${{steps.extract_branch.outputs.branch}}"
+      # Deploy
+      - name: Deploy docs
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          target-folder: docs
+          token: ${{ inputs.GITHUB_TOKEN }}
