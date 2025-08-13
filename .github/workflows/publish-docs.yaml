@@ -15,9 +15,12 @@ jobs:
         shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
         id: extract_branch
+      # Make dirs
+      - name: Make dirs
+        run: mkdir -p docs/{javadoc,doxygen}/${{steps.extract_branch.outputs.branch}}
       # Run javadoc
       - name: Generate javadoc
-        run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/javadoc/${{steps.extract_branch.outputs.branch}}"
+        run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/javadoc/${{steps.extract_branch.outputs.branch}}/"
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
       # Install dependencies for doxygen
@@ -25,9 +28,9 @@ jobs:
         run: sudo apt-get update && sudo apt-get install doxygen graphviz
       # Generate doxygen docs
       - name: Generate Doxygen docs
-        run: mkdir -p "${OUTPUT_DIRECTORY}" && doxygen Doxyfile
+        run: doxygen Doxyfile
         env:
-          OUTPUT_DIRECTORY: "docs/doxygen/${{steps.extract_branch.outputs.branch}}"
+          OUTPUT_DIRECTORY: "docs/doxygen/${{steps.extract_branch.outputs.branch}}/"
       # Deploy
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4
