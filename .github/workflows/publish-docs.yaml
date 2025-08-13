@@ -28,7 +28,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install doxygen graphviz
       # Generate doxygen docs
       - name: Generate Doxygen docs
-        run: doxygen Doxyfile
+        run: doxygen Doxyfile && mv docs/doxygen/${{steps.extract_branch.outputs.branch}}/apidocs/ docs/doxygen/${{steps.extract_branch.outputs.branch}}/
         env:
           OUTPUT_DIRECTORY: "docs/doxygen/${{steps.extract_branch.outputs.branch}}/"
       # Deploy
