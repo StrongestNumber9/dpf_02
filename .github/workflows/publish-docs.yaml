@@ -38,6 +38,6 @@ jobs:
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: docs
-          target-folder: docs
+          folder: docs/${{steps.extract_branch.outputs.branch}}/
+          target-folder: docs/${{steps.extract_branch.outputs.branch}}/
           token: ${{ secrets.GITHUB_TOKEN }}
