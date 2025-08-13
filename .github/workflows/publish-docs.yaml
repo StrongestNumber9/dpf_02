@@ -29,20 +29,20 @@ jobs:
         id: extract_branch
       # Make dirs
       - name: Make dirs
-        run: mkdir -p docs/${{steps.extract_branch.outputs.branch}}/{javadoc,doxygen}
+        run: mkdir -p docs/${{steps.extract_branch.outputs.branch}}/
       # Run javadoc
       - name: Generate javadoc
-        run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/${{steps.extract_branch.outputs.branch}}/javadoc/"
+        run: mvn -B javadoc:aggregate && mv target/site/apidocs "docs/${{steps.extract_branch.outputs.branch}}/javadoc/"
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
       # Install dependencies for doxygen
       - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install doxygen graphviz
+        run: sudo apt-get update && sudo apt-get install doxygen graphviz && mv "target/doxygen/html" "docs/${{steps.extract_branch.outputs.branch}}/doxygen/"
       # Generate doxygen docs
       - name: Generate Doxygen docs
         run: doxygen Doxyfile
         env:
-          OUTPUT_DIRECTORY: "docs/${{steps.extract_branch.outputs.branch}}/doxygen/"
+          OUTPUT_DIRECTORY: "target/doxygen"
       # Debug
       - name: Debug
         run: find docs/
