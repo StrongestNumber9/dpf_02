@@ -4,7 +4,7 @@ FILE_PATTERNS          = *.java
 RECURSIVE              = YES
 
 # OUTPUT
-OUTPUT_DIRECTORY       = docs
+OUTPUT_DIRECTORY       = $(OUTPUT_DIRECTORY)
 GENERATE_LATEX         = NO
 GENERATE_HTML          = YES
 

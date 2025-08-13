@@ -22,8 +22,11 @@ jobs:
           without-deploy: true
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
-      # Generate doxygen
-      - name: Generate Doxygen
+      # Install doxygen
+      - name: Install Doxygen
+        run: sudo apt-get update && sudo apt-get install doxygen
+      # Generate doxygen docs
+      - name: Generate Doxygen docs
         run: doxygen Doxyfile
         env:
           OUTPUT_DIRECTORY: "doxygen/${{ steps.extract_branch.outputs.branch }}"
