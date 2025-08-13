@@ -1,0 +1,14 @@
+<map id="com.teragrep.functions.dpf_02.SortOperation.orderDatasetByGivenColumns" name="com.teragrep.functions.dpf_02.SortOperation.orderDatasetByGivenColumns">
+<area shape="rect" id="node1" title=" " alt="" coords="5,190,251,245"/>
+<area shape="rect" id="node2" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a08aa90d9188bc7d1d71bf60fbf6637af" title=" " alt="" coords="299,261,556,301"/>
+<area shape="rect" id="node11" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#ac68144e00f98017fd1ad1d27e5244ead" title=" " alt="" coords="306,94,549,149"/>
+<area shape="rect" id="node3" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a3fc10858d9ecf41e0ae8ef28a2bf4f3d" title=" " alt="" coords="632,133,863,173"/>
+<area shape="rect" id="node4" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a74baee9a0fc0aee57bb70b4f3cfcd3e1" title=" " alt="" coords="648,389,847,429"/>
+<area shape="rect" id="node5" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a708742d11eb8f958488fb23307504a08" title=" " alt="" coords="634,69,861,109"/>
+<area shape="rect" id="node6" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#abae1d9b4473e8e42e469d09fba88349c" title="Checks if a column only contains numbers even if it is labeled as a string column." alt="" coords="604,453,891,493"/>
+<area shape="rect" id="node7" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ab171ca53f7e6dc234998463b8d048458" title=" " alt="" coords="629,517,865,557"/>
+<area shape="rect" id="node8" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a5fd03f7ed55e7f7cc78ad999d08aa772" title=" " alt="" coords="632,197,863,237"/>
+<area shape="rect" id="node9" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ac640f799be42407d302dca016f669624" title=" " alt="" coords="648,261,847,301"/>
+<area shape="rect" id="node10" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a122c5ee0718e7e7d123a15be3410d437" title=" " alt="" coords="631,325,863,365"/>
+<area shape="rect" id="node12" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a2cf92d06f1f06e2602a27a2072d36d60" title=" " alt="" coords="631,5,864,45"/>
+</map>
