@@ -1,1 +1,1 @@
-/usr/lib/jvm/temurin-17-jdk-amd64/bin/javadoc @options @packages
+/opt/hostedtoolcache/Java_Adopt_jdk/11.0.27-6/x64/bin/javadoc @options @packages
