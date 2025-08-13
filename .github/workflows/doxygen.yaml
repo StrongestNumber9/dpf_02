@@ -1,0 +1,11 @@
+on:
+  push:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      uses: mattnotmitt/doxygen-action@v1.9.5
+      with:
+        enable-latex: true
