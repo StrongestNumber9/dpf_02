@@ -1,0 +1,31 @@
+<map id="com.teragrep.functions.dpf_02.BatchCollect.processAggregated" name="com.teragrep.functions.dpf_02.BatchCollect.processAggregated">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,213,265,258"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html#a00b243598f8845aac78b565b7f10eb8e" title=" " alt="" coords="313,213,532,258"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="265,233,297,233,297,238,265,238"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a45146062afc6803dc2bb44ff0a7c8b3a" title=" " alt="" coords="580,205,824,266"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="532,233,564,233,564,238,532,238"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a08aa90d9188bc7d1d71bf60fbf6637af" title=" " alt="" coords="872,283,1129,327"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="825,261,887,276,886,281,824,267"/>
+<area shape="rect" id="Node000013" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#ac68144e00f98017fd1ad1d27e5244ead" title=" " alt="" coords="879,101,1122,162"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="792,202,895,166,897,171,794,207"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a3fc10858d9ecf41e0ae8ef28a2bf4f3d" title=" " alt="" coords="1204,144,1434,189"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1032,280,1096,239,1176,199,1195,191,1197,196,1178,203,1099,243,1035,285"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a74baee9a0fc0aee57bb70b4f3cfcd3e1" title=" " alt="" coords="1221,421,1418,466"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="1035,325,1099,367,1178,407,1207,417,1205,422,1176,411,1096,371,1032,330"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a708742d11eb8f958488fb23307504a08" title=" " alt="" coords="1206,75,1432,119"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="1022,280,1107,192,1175,129,1190,122,1193,127,1178,134,1111,196,1025,284"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#abae1d9b4473e8e42e469d09fba88349c" title="Checks if a column only contains numbers even if it is labeled as a string column." alt="" coords="1177,491,1462,535"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="1020,326,1084,400,1128,441,1178,476,1189,482,1187,486,1175,481,1125,446,1080,404,1016,329"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ab171ca53f7e6dc234998463b8d048458" title=" " alt="" coords="1202,560,1437,605"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="1014,327,1037,373,1073,433,1120,494,1148,522,1178,545,1189,552,1186,557,1175,550,1144,526,1116,498,1068,436,1032,376,1009,329"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a5fd03f7ed55e7f7cc78ad999d08aa772" title=" " alt="" coords="1205,213,1434,258"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="1106,279,1198,259,1199,264,1107,285"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ac640f799be42407d302dca016f669624" title=" " alt="" coords="1221,283,1418,327"/>
+<area shape="poly" id="edge10_Node000004_Node000011" title=" " alt="" coords="1129,302,1205,302,1205,308,1129,308"/>
+<area shape="rect" id="Node000012" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a122c5ee0718e7e7d123a15be3410d437" title=" " alt="" coords="1204,352,1435,397"/>
+<area shape="poly" id="edge11_Node000004_Node000012" title=" " alt="" coords="1107,325,1199,346,1198,351,1106,331"/>
+<area shape="poly" id="edge13_Node000013_Node000005" title=" " alt="" coords="1123,142,1189,149,1188,155,1122,148"/>
+<area shape="poly" id="edge15_Node000013_Node000007" title=" " alt="" coords="1122,116,1191,108,1191,114,1123,121"/>
+<area shape="rect" id="Node000014" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a2cf92d06f1f06e2602a27a2072d36d60" title=" " alt="" coords="1203,5,1436,50"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="1074,98,1176,60,1202,52,1203,57,1178,65,1076,103"/>
+</map>

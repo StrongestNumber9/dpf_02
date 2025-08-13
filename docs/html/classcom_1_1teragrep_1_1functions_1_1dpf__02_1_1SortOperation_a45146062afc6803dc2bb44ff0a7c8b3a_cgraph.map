@@ -1,0 +1,27 @@
+<map id="com.teragrep.functions.dpf_02.SortOperation.orderDatasetByGivenColumns" name="com.teragrep.functions.dpf_02.SortOperation.orderDatasetByGivenColumns">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,205,250,266"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a08aa90d9188bc7d1d71bf60fbf6637af" title=" " alt="" coords="298,283,554,327"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="251,261,313,276,311,281,249,267"/>
+<area shape="rect" id="Node000011" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#ac68144e00f98017fd1ad1d27e5244ead" title=" " alt="" coords="305,101,547,162"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="217,202,320,166,322,171,219,207"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a3fc10858d9ecf41e0ae8ef28a2bf4f3d" title=" " alt="" coords="630,144,860,189"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,280,522,239,601,199,620,191,622,196,603,203,524,243,460,285"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a74baee9a0fc0aee57bb70b4f3cfcd3e1" title=" " alt="" coords="646,421,843,466"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="460,325,524,367,603,407,632,417,630,422,601,411,522,371,457,330"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a708742d11eb8f958488fb23307504a08" title=" " alt="" coords="632,75,858,119"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="447,280,533,192,600,129,616,122,618,127,604,134,536,196,451,284"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#abae1d9b4473e8e42e469d09fba88349c" title="Checks if a column only contains numbers even if it is labeled as a string column." alt="" coords="602,491,887,535"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="445,326,509,400,553,441,603,476,614,482,612,486,601,481,550,446,505,404,441,329"/>
+<area shape="rect" id="Node000007" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ab171ca53f7e6dc234998463b8d048458" title=" " alt="" coords="627,560,862,605"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="439,327,462,373,498,433,545,494,573,522,604,545,615,552,612,557,600,550,570,526,541,498,493,436,458,376,435,329"/>
+<area shape="rect" id="Node000008" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a5fd03f7ed55e7f7cc78ad999d08aa772" title=" " alt="" coords="630,213,859,258"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="531,279,624,259,625,264,533,285"/>
+<area shape="rect" id="Node000009" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ac640f799be42407d302dca016f669624" title=" " alt="" coords="646,283,843,327"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="554,302,630,302,630,308,554,308"/>
+<area shape="rect" id="Node000010" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a122c5ee0718e7e7d123a15be3410d437" title=" " alt="" coords="629,352,860,397"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="533,325,625,346,624,351,531,331"/>
+<area shape="poly" id="edge11_Node000011_Node000003" title=" " alt="" coords="548,142,614,149,614,155,547,148"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="547,116,616,108,617,114,548,121"/>
+<area shape="rect" id="Node000012" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a2cf92d06f1f06e2602a27a2072d36d60" title=" " alt="" coords="628,5,861,50"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="499,98,601,60,627,52,628,57,603,65,501,103"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="com.teragrep.functions.dpf_02.SortOperation" name="com.teragrep.functions.dpf_02.SortOperation">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,203,50"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html" title="Handles the business logic for processing orders." alt="" coords="5,98,203,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,66,107,98,101,98,101,66"/>
+</map>
