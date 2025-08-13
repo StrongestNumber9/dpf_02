@@ -10,13 +10,23 @@ jobs:
         shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
         id: extract_branch
+      # Create javadoc content
       - name: Publish JavaDoc
         uses: MathieuSoysal/Javadoc-publisher.yml@v3.0.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           javadoc-branch: javadoc
           java-version: 11
-          target-folder: "${{ steps.extract_branch.outputs.branch }}"
+          target-folder: "javadoc/${{ steps.extract_branch.outputs.branch }}"
           project: maven
+          without-deploy: true
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
+      # Generate doxygen
+      - name: Generate Doxygen
+        run: doxygen Doxyfile
+        env:
+          OUTPUT_DIRECTORY: "doxygen/${{ steps.extract_branch.outputs.branch }}"
+      # Debug
+      - name: Debug
+        run: ls -laF && git status
