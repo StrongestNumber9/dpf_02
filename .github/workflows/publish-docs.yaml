@@ -43,9 +43,6 @@ jobs:
         run: doxygen Doxyfile && mv "target/doxygen/html" "docs/${{steps.extract_branch.outputs.branch}}/doxygen/"
         env:
           OUTPUT_DIRECTORY: "target/doxygen"
-      # Debug
-      - name: Debug
-        run: find docs/
       # Deploy
       - name: Deploy docs
         uses: JamesIves/github-pages-deploy-action@v4
