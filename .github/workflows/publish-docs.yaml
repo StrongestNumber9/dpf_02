@@ -6,6 +6,10 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Checkout
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       # Used for redirecting docs
       - name: Extract branch name
         shell: bash
