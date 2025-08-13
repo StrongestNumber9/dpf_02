@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.teragrep.functions.dpf_02"}];updateSearchResults();

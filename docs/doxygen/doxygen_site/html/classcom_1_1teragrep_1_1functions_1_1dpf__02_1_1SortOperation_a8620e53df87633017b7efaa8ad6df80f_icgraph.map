@@ -1,7 +1,0 @@
-<map id="com.teragrep.functions.dpf_02.SortOperation.getListOfSortByClauses" name="com.teragrep.functions.dpf_02.SortOperation.getListOfSortByClauses">
-<area shape="rect" id="Node000001" title=" " alt="" coords="499,5,727,60"/>
-<area shape="rect" id="Node000002" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html#a7767e43067843cf7491c54459e7f3b1f" title=" " alt="" coords="252,13,451,53"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="485,35,451,35,451,30,485,30"/>
-<area shape="rect" id="Node000003" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html#a4cfd689c0f70cb1b120485362b32c22d" title="Returns the batchCollected dataframe." alt="" coords="5,13,204,53"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,35,204,35,204,30,238,30"/>
-</map>

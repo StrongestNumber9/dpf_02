@@ -1,9 +1,0 @@
-<map id="SortOperationTest.testTwoSortByClauseDescending_IP" name="SortOperationTest.testTwoSortByClauseDescending_IP">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,23,209,63"/>
-<area shape="rect" id="Node000002" href="$classSortOperationTest.html#a068b17fb9181e151d2008f220cb1cb39" title=" " alt="" coords="257,31,472,56"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="210,41,243,41,243,46,210,46"/>
-<area shape="rect" id="Node000003" href="$classSortOperationTest.html#a8f1fd7df4eecf5e01027fbc6fa1efbf9" title=" " alt="" coords="523,5,736,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="472,30,509,27,509,32,472,36"/>
-<area shape="rect" id="Node000004" href="$classSortOperationTest.html#aec1a31756fffd768b8cb7c988b409bc4" title=" " alt="" coords="520,55,739,80"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="472,50,507,54,506,59,472,56"/>
-</map>
