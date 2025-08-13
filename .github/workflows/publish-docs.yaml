@@ -20,7 +20,7 @@ jobs:
         run: mkdir -p docs/{javadoc,doxygen}/${{steps.extract_branch.outputs.branch}}
       # Run javadoc
       - name: Generate javadoc
-        run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/javadoc/${{steps.extract_branch.outputs.branch}}/"
+        run: mvn javadoc:aggregate && mv target/site/apidocs/ "docs/${{steps.extract_branch.outputs.branch}}/javadoc/"
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
       # Install dependencies for doxygen
@@ -30,7 +30,7 @@ jobs:
       - name: Generate Doxygen docs
         run: doxygen Doxyfile
         env:
-          OUTPUT_DIRECTORY: "docs/doxygen/${{steps.extract_branch.outputs.branch}}/"
+          OUTPUT_DIRECTORY: "docs/${{steps.extract_branch.outputs.branch}}/doxygen/"
       # Debug
       - name: Debug
         run: find docs/
