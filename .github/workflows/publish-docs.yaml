@@ -35,7 +35,7 @@ jobs:
         run: mvn -B javadoc:aggregate && mv target/site/apidocs "docs/${{steps.extract_branch.outputs.branch}}/javadoc/"
         env:
           MAVEN_OPTS: "-Dmaven.javadoc.failOnError=false"
-      # Install dependencies for doxygen
+      # Install dependencies
       - name: Install dependencies
         run: sudo apt-get update && sudo apt-get install doxygen graphviz plantuml
       # Generate doxygen docs
