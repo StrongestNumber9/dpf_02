@@ -1,6 +1,6 @@
 @startuml inline_umlgraph_1.svg
 class BatchCollect {
-  + call()
+  + call(df: Dataset<Row>, id: Long, skipLimiting: boolean) : Dataset<Row>  "Collects rows up to the defined limit unless skipLimiting is provided"
 }
 
 BatchCollect --> SortByClause : sort order
