@@ -1,0 +1,13 @@
+<map id="com.teragrep.functions.dpf_02.SortByClause.getLimit" name="com.teragrep.functions.dpf_02.SortByClause.getLimit">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1365,13,1564,53"/>
+<area shape="rect" id="Node000002" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a08aa90d9188bc7d1d71bf60fbf6637af" title=" " alt="" coords="1060,13,1317,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1351,35,1317,35,1317,30,1351,30"/>
+<area shape="rect" id="Node000003" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a45146062afc6803dc2bb44ff0a7c8b3a" title=" " alt="" coords="767,5,1012,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1046,35,1012,35,1012,30,1046,30"/>
+<area shape="rect" id="Node000004" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html#a00b243598f8845aac78b565b7f10eb8e" title=" " alt="" coords="499,13,719,53"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="753,35,719,35,719,30,753,30"/>
+<area shape="rect" id="Node000005" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html#a7767e43067843cf7491c54459e7f3b1f" title=" " alt="" coords="252,13,451,53"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="485,35,451,35,451,30,485,30"/>
+<area shape="rect" id="Node000006" href="$classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1BatchCollect.html#a4cfd689c0f70cb1b120485362b32c22d" title="Returns the batchCollected dataframe." alt="" coords="5,13,204,53"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="238,35,204,35,204,30,238,30"/>
+</map>

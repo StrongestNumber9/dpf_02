@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="268px" preserveAspectRatio="none" style="width:621px;height:268px;" version="1.1" viewBox="0 0 621 268" width="621px" zoomAndPan="magnify"><defs><filter height="300%" id="fzx6fnbsuk8ho" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[09fd85763c46adaa2f2b56db7fc2eb27]
+class BatchCollect--><rect fill="#FEFECE" filter="url(#fzx6fnbsuk8ho)" height="60.8047" id="BatchCollect" style="stroke: #A80036; stroke-width: 1.5;" width="110" x="176" y="20.5"/><ellipse cx="191" cy="36.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M193.9688,42.1406 Q193.3906,42.4375 192.75,42.5781 Q192.1094,42.7344 191.4063,42.7344 Q188.9063,42.7344 187.5781,41.0938 Q186.2656,39.4375 186.2656,36.3125 Q186.2656,33.1875 187.5781,31.5313 Q188.9063,29.875 191.4063,29.875 Q192.1094,29.875 192.75,30.0313 Q193.4063,30.1875 193.9688,30.4844 L193.9688,33.2031 Q193.3438,32.625 192.75,32.3594 Q192.1563,32.0781 191.5313,32.0781 Q190.1875,32.0781 189.5,33.1563 Q188.8125,34.2188 188.8125,36.3125 Q188.8125,38.4063 189.5,39.4844 Q190.1875,40.5469 191.5313,40.5469 Q192.1563,40.5469 192.75,40.2813 Q193.3438,40 193.9688,39.4219 L193.9688,42.1406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="78" x="205" y="40.6543">BatchCollect</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="177" x2="285" y1="52.5" y2="52.5"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="177" x2="285" y1="60.5" y2="60.5"/><ellipse cx="187" cy="71.5" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="27" x="196" y="74.7104">call()</text><!--MD5=[9ad2686358651f8e72f1d25dbdf39c15]
+class SortByClause--><rect fill="#FEFECE" filter="url(#fzx6fnbsuk8ho)" height="60.8047" id="SortByClause" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="6" y="183.5"/><ellipse cx="21" cy="199.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M23.9688,205.1406 Q23.3906,205.4375 22.75,205.5781 Q22.1094,205.7344 21.4063,205.7344 Q18.9063,205.7344 17.5781,204.0938 Q16.2656,202.4375 16.2656,199.3125 Q16.2656,196.1875 17.5781,194.5313 Q18.9063,192.875 21.4063,192.875 Q22.1094,192.875 22.75,193.0313 Q23.4063,193.1875 23.9688,193.4844 L23.9688,196.2031 Q23.3438,195.625 22.75,195.3594 Q22.1563,195.0781 21.5313,195.0781 Q20.1875,195.0781 19.5,196.1563 Q18.8125,197.2188 18.8125,199.3125 Q18.8125,201.4063 19.5,202.4844 Q20.1875,203.5469 21.5313,203.5469 Q22.1563,203.5469 22.75,203.2813 Q23.3438,203 23.9688,202.4219 L23.9688,205.1406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="82" x="35" y="203.6543">SortByClause</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="119" y1="215.5" y2="215.5"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="119" y1="223.5" y2="223.5"/><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="14" y="231.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="26" y="237.7104">getLimit()</text><!--MD5=[036db6fc2b6f0dfad827e545bf6dd9ea]
+class UusiObjekti--><rect fill="#FEFECE" filter="url(#fzx6fnbsuk8ho)" height="60.8047" id="UusiObjekti" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="350" y="183.5"/><ellipse cx="365" cy="199.5" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M367.9688,205.1406 Q367.3906,205.4375 366.75,205.5781 Q366.1094,205.7344 365.4063,205.7344 Q362.9063,205.7344 361.5781,204.0938 Q360.2656,202.4375 360.2656,199.3125 Q360.2656,196.1875 361.5781,194.5313 Q362.9063,192.875 365.4063,192.875 Q366.1094,192.875 366.75,193.0313 Q367.4063,193.1875 367.9688,193.4844 L367.9688,196.2031 Q367.3438,195.625 366.75,195.3594 Q366.1563,195.0781 365.5313,195.0781 Q364.1875,195.0781 363.5,196.1563 Q362.8125,197.2188 362.8125,199.3125 Q362.8125,201.4063 363.5,202.4844 Q364.1875,203.5469 365.5313,203.5469 Q366.1563,203.5469 366.75,203.2813 Q367.3438,203 367.9688,202.4219 L367.9688,205.1406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="379" y="203.6543">UusiObjekti</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="351" x2="451" y1="215.5" y2="215.5"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="351" x2="451" y1="223.5" y2="223.5"/><ellipse cx="361" cy="234.5" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="39" x="370" y="237.7104">jotain()</text><path d="M321,8 L321,47 L286.15,51 L321,55 L321,93.6641 A0,0 0 0 0 321,93.6641 L443,93.6641 A0,0 0 0 0 443,93.6641 L443,18 L433,8 L321,8 A0,0 0 0 0 321,8 " fill="#FBFB77" filter="url(#fzx6fnbsuk8ho)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M433,8 L433,18 L443,18 L433,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="327" y="25.0669">Responsibilities:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="327" y="40.1997">- Collects Rows</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="331" y="55.3325"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="327" y="70.4653">Collaborators:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="327" y="85.5981">- SortByClause</text><path d="M155,171 L155,210 L120.11,214 L155,218 L155,256.6641 A0,0 0 0 0 155,256.6641 L315,256.6641 A0,0 0 0 0 315,256.6641 L315,181 L305,171 L155,171 A0,0 0 0 0 155,171 " fill="#FBFB77" filter="url(#fzx6fnbsuk8ho)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M305,171 L305,181 L315,181 L305,171 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="161" y="188.0669">Responsibilities:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="79" x="161" y="203.1997">- Sorts Rows</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="165" y="218.3325"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="161" y="233.4653">Collaborators:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="139" x="161" y="248.5981">- ConvertIPStringToInt</text><path d="M487,194 L487,210 L452.11,214 L487,218 L487,234.2656 A0,0 0 0 0 487,234.2656 L609,234.2656 A0,0 0 0 0 609,234.2656 L609,204 L599,194 L487,194 A0,0 0 0 0 487,194 " fill="#FBFB77" filter="url(#fzx6fnbsuk8ho)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M599,194 L599,204 L609,204 L599,194 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="101" x="493" y="211.0669">Responsibilities:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="497" y="226.1997">- irresponsible</text><!--MD5=[2e7c43e9141b94250da4ff77dd34c873]
+link BatchCollect to SortByClause--><path d="M200.19,81.53 C171.15,109.36 127.71,150.99 97.52,179.92 " fill="none" id="BatchCollect-&gt;SortByClause" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="93.9,183.39,103.1687,180.0596,97.5132,179.9339,97.6389,174.2784,93.9,183.39" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="154" y="137.0669">sort order</text><!--MD5=[e7edfd5f215210244e097a8354b4b9e0]
+link BatchCollect to UusiObjekti--><path d="M262.18,81.53 C291.56,109.36 335.52,150.99 366.07,179.92 " fill="none" id="BatchCollect-&gt;UusiObjekti" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="369.73,183.39,365.9355,174.3015,366.0957,179.956,360.4411,180.1163,369.73,183.39" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="48" x="322" y="137.0669">magiaa</text><!--MD5=[abb471ad778dc35afb8ccf7deec3a038]
+@startuml inline_umlgraph_2.svg
+class BatchCollect {
+  + call()
+}
+
+BatchCollect - -> SortByClause : sort order
+BatchCollect - -> UusiObjekti : magiaa
+
+note right of  BatchCollect
+Responsibilities:
+- Collects Rows
+
+Collaborators:
+- SortByClause
+end note
+
+class SortByClause {
+  - getLimit()
+}
+
+note right of  SortByClause
+Responsibilities:
+- Sorts Rows
+
+Collaborators:
+- ConvertIPStringToInt
+end note
+class UusiObjekti {
+  + jotain()
+}
+
+note right of UusiObjekti
+Responsibilities:
+ - irresponsible
+end note
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.27+6
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
