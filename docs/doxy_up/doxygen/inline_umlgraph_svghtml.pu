@@ -3,7 +3,7 @@ class BatchCollect {
   + call()
 }
 
-BatchCollect --> SortByClause : sort order
+BatchCollect --&gt; SortByClause : sort order
 
 note right of  BatchCollect
 Responsibilities:
@@ -14,6 +14,10 @@ Collaborators:
 end note
 @enduml
 @startuml inline_umlgraph_2.svg
+!include src/main/java/com/teragrep/functions/dpf_02/BatchCollect.java!0
+!include src/main/java/com/teragrep/functions/dpf_02/SortByClause.java!0
+@enduml
+@startuml inline_umlgraph_3.svg
 class SortByClause {
   - getLimit()
 }
