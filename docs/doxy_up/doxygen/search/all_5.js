@@ -5,7 +5,5 @@ var searchData=
   ['getfieldname_2',['getFieldName',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a3fc10858d9ecf41e0ae8ef28a2bf4f3d',1,'com::teragrep::functions::dpf_02::SortByClause']]],
   ['getlimit_3',['getLimit',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a74baee9a0fc0aee57bb70b4f3cfcd3e1',1,'com::teragrep::functions::dpf_02::SortByClause']]],
   ['getlistofsortbyclauses_4',['getListOfSortByClauses',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#a8620e53df87633017b7efaa8ad6df80f',1,'com::teragrep::functions::dpf_02::SortOperation']]],
-  ['getsortastype_5',['getSortAsType',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a2cf92d06f1f06e2602a27a2072d36d60',1,'com::teragrep::functions::dpf_02::SortByClause']]],
-  ['graafinen_6',['Graafinen',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1Graafinen.html',1,'com::teragrep::functions::dpf_02']]],
-  ['graafinen_2ejava_7',['Graafinen.java',['../Graafinen_8java.html',1,'']]]
+  ['getsortastype_5',['getSortAsType',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a2cf92d06f1f06e2602a27a2072d36d60',1,'com::teragrep::functions::dpf_02::SortByClause']]]
 ];
