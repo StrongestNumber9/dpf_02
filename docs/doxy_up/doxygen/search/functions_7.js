@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['jotain_0',['jotain',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1UusiObjekti.html#a704155c65f4f37b3b3322f27d0a97f39',1,'com::teragrep::functions::dpf_02::UusiObjekti']]]
+  ['makerows_0',['makerows',['../classBatchCollectTest.html#a0cce3b00bc06e908a2444f8ea566f069',1,'BatchCollectTest.makeRows()'],['../classSortOperationTest.html#a8f1fd7df4eecf5e01027fbc6fa1efbf9',1,'SortOperationTest.makeRows()']]]
 ];

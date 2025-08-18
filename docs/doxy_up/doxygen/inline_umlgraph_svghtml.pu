@@ -32,13 +32,3 @@ Collaborators:
 - ConvertIPStringToInt
 end note
 @enduml
-@startuml inline_umlgraph_4.svg
-class UusiObjekti {
-  + jotain()
-}
-
-note right of UusiObjekti
-Responsibilities:
- - irresponsible
-end note
-@enduml

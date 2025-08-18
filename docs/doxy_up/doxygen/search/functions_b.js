@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['setaggregatesusedbefore_0',['setAggregatesUsedBefore',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1AbstractStep.html#abfa7035494db87f1a275b8ddf27beae8',1,'com::teragrep::functions::dpf_02::AbstractStep']]],
-  ['setdescending_1',['setDescending',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ab171ca53f7e6dc234998463b8d048458',1,'com::teragrep::functions::dpf_02::SortByClause']]],
-  ['setfieldname_2',['setFieldName',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a5fd03f7ed55e7f7cc78ad999d08aa772',1,'com::teragrep::functions::dpf_02::SortByClause']]],
-  ['setlimit_3',['setLimit',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#ac640f799be42407d302dca016f669624',1,'com::teragrep::functions::dpf_02::SortByClause']]],
-  ['setsortastype_4',['setSortAsType',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a122c5ee0718e7e7d123a15be3410d437',1,'com::teragrep::functions::dpf_02::SortByClause']]],
-  ['sortbyclausetocolumn_5',['sortByClauseToColumn',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#ac68144e00f98017fd1ad1d27e5244ead',1,'com::teragrep::functions::dpf_02::SortOperation']]],
-  ['sortoperation_6',['sortoperation',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#afc2d2820d4aa921b2f2beed4023d6403',1,'com.teragrep.functions.dpf_02.SortOperation.SortOperation()'],['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortOperation.html#aa8f683a65ed64a549a9c99e092a5e0cc',1,'com.teragrep.functions.dpf_02.SortOperation.SortOperation(List&lt; SortByClause &gt; listOfSortByClauses)']]],
-  ['startstream_7',['startstream',['../classBatchCollectTest.html#ad09e549c4f7356f2a81594cec994630d',1,'BatchCollectTest.startStream()'],['../classSortOperationTest.html#aec1a31756fffd768b8cb7c988b409bc4',1,'SortOperationTest.startStream()']]]
+  ['testcollectasdataframe_0',['testCollectAsDataframe',['../classBatchCollectTest.html#a8c0559279adae48dcf9e519a7f1a1e25',1,'BatchCollectTest']]],
+  ['testpostbatchcollectstepprocessing_1',['testPostBatchCollectStepProcessing',['../classBatchCollectTest.html#a5e20e858176e138e8db9764f940b4d6d',1,'BatchCollectTest']]],
+  ['testskiplimiting_2',['testSkipLimiting',['../classBatchCollectTest.html#a71433847e60e2f6ba38d2564f79da44a',1,'BatchCollectTest']]],
+  ['testthreesortbyclauses_3',['testThreeSortByClauses',['../classSortOperationTest.html#aced236ff97a03acfda235216c051587c',1,'SortOperationTest']]],
+  ['testtwosortbyclausedescending_5fip_4',['testTwoSortByClauseDescending_IP',['../classSortOperationTest.html#aef072d804fb23f999f756588308a73c1',1,'SortOperationTest']]],
+  ['testtwosortbyclauses_5',['testTwoSortByClauses',['../classSortOperationTest.html#a334b580450a7df03ecf9b5e68c801f26',1,'SortOperationTest']]],
+  ['testtwosortbyclausesdescending_6',['testTwoSortByClausesDescending',['../classSortOperationTest.html#ac8f280dece164faa16d7f0c466ed84e7',1,'SortOperationTest']]],
+  ['tostring_7',['toString',['../classcom_1_1teragrep_1_1functions_1_1dpf__02_1_1SortByClause.html#a48102ea7b9658eb38207c41363718f0d',1,'com::teragrep::functions::dpf_02::SortByClause']]]
 ];
