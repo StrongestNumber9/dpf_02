@@ -130,27 +130,27 @@
                 </tag>
                 <tag>
                   <name>enduml</name>
-                  <placement></placement>
+                  <placement>a</placement>
                   <head>enduml</head>
                 </tag>
                 <tag>
                   <name>class</name>
-                  <placement></placement>
+                  <placement>a</placement>
                   <head>class</head>
                 </tag>
                 <tag>
                   <name>brief</name>
-                  <placement></placement>
+                  <placement>a</placement>
                   <head>brief</head>
                 </tag>
                 <tag>
                   <name>responsibilities</name>
-                  <placement></placement>
+                  <placement>a</placement>
                   <head>responsibilities</head>
                 </tag>
                 <tag>
                   <name>collaborators</name>
-                  <placement></placement>
+                  <placement>a</placement>
                   <head>collaborators</head>
                 </tag>
               </tags>

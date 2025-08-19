@@ -55,31 +55,7 @@ import org.slf4j.LoggerFactory;
 import java.util.*;
 
 /**
- * @class BatchCollect
- * @brief Handles the business logic for processing orders.
- *
- * @responsibilities
- * - Collects rows
- *
- * @collaborators
- * - SortByClause
- *
- * @startuml
- * class BatchCollect {
- *   + call()
- * }
- *
- * {@code BatchCollect --> SortByClause : sort order}
- *
- * note right of  BatchCollect
- * Responsibilities:
- * - Collects Rows
- *
- * Collaborators:
- * - SortByClause
- * end note
- *
- * @enduml
+ * LOr12i9034NtESLVAj8BTE6YlK4zmNGQxK2OI18HATxTLbpOvViF_ikItD6bo7El8fm32m4dv2HoEDARQ2URveoBMdIlNjB36IryHQXDR4HLWs7bDg_B5RjV6jZlMhsCHKeKzfOQ_9nZqASJRPX6jHHgN_-V8guJjW1z0000
  */
 
 public final class BatchCollect extends SortOperation {
