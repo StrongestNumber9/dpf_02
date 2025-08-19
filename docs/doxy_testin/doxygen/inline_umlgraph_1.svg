@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="141px" preserveAspectRatio="none" style="width:621px;height:141px;background:#000000;" version="1.1" viewBox="0 0 621 141" width="621px" zoomAndPan="magnify"><defs/><g><rect fill="#021A1D" height="1" style="stroke: #021A1D; stroke-width: 1.0;" width="1" x="0" y="0"/><rect fill="#33FF02" height="37.5938" style="stroke: #33FF02; stroke-width: 1.0;" width="615" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="613" x="6" y="20">[From src/main/java/com/teragrep/functions/dpf_02/BatchCollect.java (line 3) ]</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="339" x="6" y="36.2969">[From inline_umlgraph_svghtml.pu (line 2) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="10" y="56.5938"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="257" x="5" y="72.8906">@startuml inline_umlgraph_1.svg</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="321" x="5" y="89.1875">package com.teragrep.functions.dpf_02;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="10" y="105.4844"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="12" x="5" y="121.7813">/*</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="106" x="10" y="138.0781">Syntax Error?</text><!--MD5=[a4dd64bfa5243ee4d8947d8a36340307]
+@startuml inline_umlgraph_1.svg
+package com.teragrep.functions.dpf_02;
+
+/*
+ * Teragrep Batch Collect DPF-02
+ * Copyright (C) 2019, 2020, 2021, 2022  Suomen Kanuuna Oy
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://github.com/teragrep/teragrep/blob/main/LICENSE>.
+ *
+ *
+ * Additional permission under GNU Affero General Public License version 3
+ * section 7
+ *
+ * If you modify this Program, or any covered work, by linking or combining it
+ * with other code, such other code is not for that reason alone subject to any
+ * of the requirements of the GNU Affero GPL version 3 as long as this Program
+ * is the same Program as licensed from Suomen Kanuuna Oy without any additional
+ * modifications.
+ *
+ * Supplemented terms under GNU Affero General Public License version 3
+ * section 7
+ *
+ * Origin of the software must be attributed to Suomen Kanuuna Oy. Any modified
+ * versions must be marked as "Modified version of" The Program.
+ *
+ * Names of the licensors and authors may not be used for publicity purposes.
+ *
+ * No rights are granted for use of trade names, trademarks, or service marks
+ * which are in The Program if any.
+ *
+ * Licensee must indemnify licensors and authors for any liability that these
+ * contractual assumptions impose on licensors and authors.
+ *
+ * To the extent this program is licensed as part of the Commercial versions of
+ * Teragrep, the applicable Commercial License may apply to this file if you as
+ * a licensee so wish it.
+ */
+
+import org.apache.spark.sql.*;
+import org.apache.spark.sql.streaming.StreamingQueryException;
+import org.apache.spark.sql.types.StructType;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.*;
+
+/**
+ * LOr12i9034NtESLVAj8BTE6YlK4zmNGQxK2OI18HATxTLbpOvViF_ikItD6bo7El8fm32m4dv2HoEDARQ2URveoBMdIlNjB36IryHQXDR4HLWs7bDg_B5RjV6jZlMhsCHKeKzfOQ_9nZqASJRPX6jHHgN_-V8guJjW1z0000
+ */
+
+public final class BatchCollect extends SortOperation {
+    private static final Logger LOGGER = LoggerFactory.getLogger(BatchCollect.class);
+    private Dataset<Row> savedDs = null;
+    private Dataset<Row> lastRowDs = null;
+    private Dataset<Row> outputDs = null;
+    private final String sortColumn;
+    private final int defaultLimit;
+    private final int postBcLimit;
+    private StructType inputSchema;
+    private boolean sortedBySingleColumn = false;
+
+    public BatchCollect(String sortColumn, int defaultLimit) {
+        this(sortColumn, defaultLimit, 0, new ArrayList<>());
+    }
+
+    public BatchCollect(String sortColumn, int defaultLimit, int postBcLimit) {
+        this(sortColumn, defaultLimit, postBcLimit, new ArrayList<>());
+    }
+
+    public BatchCollect(String sortColumn, int defaultLimit, int postBcLimit, List<SortByClause> listOfSortByClauses) {
+        super(listOfSortByClauses);
+        LOGGER.info("Initialized BatchCollect based on column <[{}]> and a limit of <[{}]> row(s). SortByClauses included: <[{}]>. Post batchcollect limit of <[{}]> row(s)",
+                sortColumn, defaultLimit, (listOfSortByClauses != null ? listOfSortByClauses.size() : "null"), postBcLimit);
+        this.sortColumn = sortColumn;
+        this.defaultLimit = defaultLimit;
+        this.postBcLimit = postBcLimit;
+    }
+
+    /**
+     * Returns the batchCollected dataframe.
+     * @param df  Dataframe to perform batch collection (and sorting) on
+     * @param id  identification number for the dataframe, usually batch ID
+     * @param skipLimiting Skips limiting of initial dataset, use for aggregated datasets
+     * @return sorted dataset
+     */
+    public Dataset<Row> call(Dataset<Row> df, Long id, boolean skipLimiting) {
+        Dataset<Row> rv;
+        this.collect(df, id, Collections.emptyList(), skipLimiting);
+
+        if (this.lastRowDs != null) {
+            rv = this.outputDs.union(this.lastRowDs);
+        } else {
+            rv = this.outputDs;
+        }
+
+        return rv;
+    }
+
+    public void collect(Dataset<Row> batchDF, Long batchId, List<AbstractStep> postBcSteps, boolean skipLimiting) {
+        // Apply post-batchcollect limit if steps are present, otherwise use the default.
+        // limit<=0 means no limit
+        final int limit;
+        if (!postBcSteps.isEmpty()) {
+            limit = this.postBcLimit;
+        } else {
+            limit = this.defaultLimit;
+        }
+
+        // check that sortColumn (_time) exists,
+        // and get the sortColId
+        // otherwise, no sorting will be done.
+        if (this.inputSchema == null) {
+            this.inputSchema = batchDF.schema();
+        }
+
+        if (this.getListOfSortByClauses() == null || this.getListOfSortByClauses().isEmpty()) {
+            for (String field : this.inputSchema.fieldNames()) {
+                if (field.equals(this.sortColumn)) {
+                    this.sortedBySingleColumn = true;
+                    break;
+                }
+            }
+        }
+
+        Dataset<Row> orderedDs = orderDataset(batchDF);
+        if (!skipLimiting && limit > 0) {
+            orderedDs = orderedDs.limit(limit);
+        }
+        List<Row> collected = orderedDs.collectAsList();
+        Dataset<Row> createdDsFromCollected = SparkSession.builder().getOrCreate().createDataFrame(collected, this.inputSchema);
+        Dataset<Row> current;
+        if (this.savedDs == null) {
+            current = createdDsFromCollected;
+        }
+        else {
+            current = savedDs.union(createdDsFromCollected);
+        }
+
+        current = orderDataset(current);
+        if (!skipLimiting && limit > 0) {
+            current = current.limit(limit);
+        }
+        this.savedDs = current;
+
+        // Post batchCollect steps processing
+        Dataset<Row> rv = current;
+        for (final AbstractStep step : postBcSteps) {
+            try {
+                rv = step.get(rv);
+            } catch (StreamingQueryException e) {
+                throw new IllegalStateException("Exception occurred while running post-batchcollect steps: ", e);
+            }
+        }
+
+        this.outputDs = rv;
+    }
+
+    private Dataset<Row> orderDataset(Dataset<Row> ds) {
+        if (this.sortedBySingleColumn) {
+            return ds.orderBy(functions.col(this.sortColumn).desc());
+        } else {
+            return this.orderDatasetByGivenColumns(ds);
+        }
+    }
+
+    public Dataset<Row> getCollectedAsDataframe() {
+        Dataset<Row> rv;
+        if (this.lastRowDs != null) {
+           rv = this.outputDs.union(this.lastRowDs);
+        } else {
+            rv = this.outputDs;
+        }
+        return rv;
+    }
+
+    public void clear() {
+        LOGGER.info("dpf_02 cleared");
+        this.savedDs = null;
+        this.outputDs = null;
+        this.lastRowDs = null;
+        this.inputSchema = null;
+    }
+
+    public void updateLastRow(Dataset<Row> lastRow) {
+        this.lastRowDs = lastRow;
+    }
+}
+class SortByClause {
+  - getLimit()
+}
+
+note right of  SortByClause
+Responsibilities:
+- Sorts Rows
+
+Collaborators:
+- ConvertIPStringToInt
+end note
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.27+6
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

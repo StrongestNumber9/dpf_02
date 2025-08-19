@@ -1,0 +1,17 @@
+@startuml inline_umlgraph_1.svg
+!include src/main/java/com/teragrep/functions/dpf_02/BatchCollect.java!0
+!include src/main/java/com/teragrep/functions/dpf_02/SortByClause.java!0
+@enduml
+@startuml inline_umlgraph_2.svg
+class SortByClause {
+  - getLimit()
+}
+
+note right of  SortByClause
+Responsibilities:
+- Sorts Rows
+
+Collaborators:
+- ConvertIPStringToInt
+end note
+@enduml
